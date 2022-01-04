@@ -17,18 +17,18 @@ setLeftEqualtoRight();
 window.onresize = setLeftEqualtoRight;
 
 //Function to take all list items in the technical skills list and bring them into an array for styling
-function createSkillList() {
-    let skillArray = ["HTML","CSS","JavaScript","Python","C++","Java","Solidworks", "OnShape", "MATLAB", "Microsoft Office Suite"];
-    let skillsCollection = document.getElementsByClassName("skillsList");
-    //console.log(skillsCollection);
-    let skills = skillsCollection[0];
-    //console.log(skills);
+// function createSkillList() {
+//     let skillArray = ["HTML","CSS","JavaScript","Python","C++","Java","Solidworks", "OnShape", "MATLAB", "Microsoft Office Suite"];
+//     let skillsCollection = document.getElementsByClassName("skillsList");
+//     //console.log(skillsCollection);
+//     let skills = skillsCollection[0];
+//     //console.log(skills);
 
-    for (let i = 0; i < skillArray.length; i++) {
-        let li = document.createElement('li');
-        li.innerText = skillArray[i];
-        skills.appendChild(li);
-    }
-}
+//     for (let i = 0; i < skillArray.length; i++) {
+//         let li = document.createElement('li');
+//         li.innerText = skillArray[i];
+//         skills.appendChild(li);
+//     }
+// }
 
-createSkillList();
+// createSkillList();
